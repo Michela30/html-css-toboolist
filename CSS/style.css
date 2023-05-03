@@ -128,3 +128,7 @@ span button{
     border: 1px solid lightgrey;
     color: white;
 }
+
+h3, .check{
+    padding: 1px 4px;
+}
