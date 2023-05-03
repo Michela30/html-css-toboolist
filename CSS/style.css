@@ -34,7 +34,7 @@ header{
     font-size: 50px;
 }
 
-.main-buttons{
+.main-buttons, .main-container{
     padding: 10px 50px;
 }
 
@@ -54,4 +54,40 @@ header{
     border: 1px solid lightgray;
     background-color: #ffffff;
     color: lightgray;
+}
+
+span, h2, h3{
+    display: inline-block;
+}
+
+.first-section-main{
+    padding-top: 20px;
+}
+
+.title-list, .to-do-list{
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.check{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+
+.done{
+    border: 1px solid green;
+    color: green;
+}
+
+.not-done{
+    border: 1px solid red;
+    color: red;
+}
+
+.second-section-main, .third-section-main{
+    padding-top: 20px;
 }
