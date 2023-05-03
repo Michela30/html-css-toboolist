@@ -14,12 +14,44 @@ body{
 }
 
 header{
-    background-color: white;
     padding: 20px;
+    margin-bottom: 20px;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 #main-logo, h1{
     display: inline-block;
     vertical-align: middle;
     font-size: 50px;
+}
+
+.main-buttons{
+    padding: 10px 50px;
+}
+
+.button {
+    font-size: 13px;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+.add-task{
+    border: #F6F8F9;
+    background-color: #47ADF1;
+    color: white;
+}
+
+.add-section{
+    border: 1px solid lightgray;
+    background-color: #ffffff;
+    color: lightgray;
 }
